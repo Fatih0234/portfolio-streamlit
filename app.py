@@ -15,6 +15,17 @@ power_bi_cert = str(current_dir / "assets" / "powerbi-microsoft.png")
 azure_cert = str(current_dir / "assets" / "azure-fundemantals-microsoft.png")
 sql_cert = str(current_dir / "assets" / "sql-datacamp.png")
 
+# let's change the path settings to relative path for all
+css_file = "styles/main.css"
+resume_file = "assets/CV.pdf"
+profile_pic = "assets/profile-pic.png"
+data_analyst_cert = "assets/data-analyst-datacamp.png"
+data_analyst_assoicate_cert = "assets/data-analyst-associate-datacamp.png"
+power_bi_cert = "assets/powerbi-microsoft.png"
+azure_cert = "assets/azure-fundemantals-microsoft.png"
+sql_cert = "assets/sql-datacamp.png"
+
+
 certifications = {
     "Data Analyst - DataCamp": {
         "image": data_analyst_cert,
