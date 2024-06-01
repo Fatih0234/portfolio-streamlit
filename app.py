@@ -4,21 +4,10 @@ import streamlit as st
 from PIL import Image
 
 # --- PATH SETTINGS ---
-current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
-css_file = current_dir / "styles" / "main.css"
-resume_file = current_dir / "assets" / "CV.pdf"
-profile_pic = current_dir / "assets" / "profile-pic.png"
-
-data_analyst_cert = str(current_dir / "assets" / "data-analyst-datacamp.png")
-data_analyst_assoicate_cert = str(current_dir / "assets" / "data-analyst-associate-datacamp.png")
-power_bi_cert = str(current_dir / "assets" / "powerbi-microsoft.png")
-azure_cert = str(current_dir / "assets" / "azure-fundemantals-microsoft.png")
-sql_cert = str(current_dir / "assets" / "sql-datacamp.png")
-
-# let's change the path settings to relative path for all
 css_file = "styles/main.css"
 resume_file = "assets/CV.pdf"
 profile_pic = "assets/profile-pic.png"
+
 data_analyst_cert = "assets/data-analyst-datacamp.png"
 data_analyst_assoicate_cert = "assets/data-analyst-associate-datacamp.png"
 power_bi_cert = "assets/powerbi-microsoft.png"
@@ -104,7 +93,7 @@ with col2:
     st.download_button(
         label=" 📄 Download Resume",
         data=PDFbyte,
-        file_name=resume_file.name,
+        file_name="Fatih_Karahan_CV.pdf",
         mime="application/octet-stream",
     )
     st.write("📫", EMAIL)
