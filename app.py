@@ -9,7 +9,6 @@ css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "CV.pdf"
 profile_pic = current_dir / "assets" / "profile-pic.png"
 
-
 data_analyst_cert = str(current_dir / "assets" / "data-analyst-datacamp.png")
 data_analyst_assoicate_cert = str(current_dir / "assets" / "data-analyst-associate-datacamp.png")
 power_bi_cert = str(current_dir / "assets" / "powerbi-microsoft.png")
@@ -78,12 +77,8 @@ st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON, layout="centered"
 # --- LOAD CSS, PDF & PROFIL PIC ---
 with open(css_file) as f:
     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
-# Check if the PDF file exists
-if resume_file.is_file():
-    with open(resume_file, "rb") as pdf_file:
-        PDFbyte = pdf_file.read()
-else:
-    st.error("Error: PDF file not found. Please check the file path.")
+with open(resume_file, "rb") as pdf_file:
+    PDFbyte = pdf_file.read()
 profile_pic = Image.open(profile_pic)
 
 
