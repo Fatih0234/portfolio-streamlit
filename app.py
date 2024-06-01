@@ -5,7 +5,7 @@ from PIL import Image
 
 # --- PATH SETTINGS ---
 css_file = "styles/main.css"
-resume_file = "assets/CV.pdf"
+resume_file = "assets/Cv.pdf"
 profile_pic = "assets/profile-pic.png"
 
 data_analyst_cert = "assets/data-analyst-datacamp.png"
