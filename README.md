@@ -4,7 +4,7 @@
 
 
 <p align="left">
-This <a href="https://housescraper-fatihkarahan.streamlit.app/" >webapp</a> is my portfolio and it is still in production.
+This <a href="https://housescraper-fatihkarahan.streamlit.app/" >webapp</a> is my portfolio/resume/CV that I built by using Streamlit which enabled me to build it very efficiently and without a pain of backend configurations. It became pretty solid, check it out.
 </p>
 
 <h3 align="center">Learn about myself</h1>
