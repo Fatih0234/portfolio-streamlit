@@ -61,13 +61,12 @@ SOCIAL_MEDIA = {
     "Medium": "https://medium.com/@sekanti02",
     "LinkedIn": "https://www.linkedin.com/in/fatih-karahan-717931193/",
     "GitHub": "https://github.com/Fatih0234",
-    "Twitter": "https://twitter.com",
 }
 PROJECTS = {
     "🏆 House Rent Price Predictor - Modeled with live data by webscraping Craiglist ads.": "https://housescraper-fatihkarahan.streamlit.app/",
-    "🏆 Income and Expense Tracker - Web app with NoSQL database": "https://youtu.be/3egaMfE9388",
-    "🏆 Desktop Application - Excel2CSV converter with user settings & menubar": "https://youtu.be/LzCfNanQ_9c",
-    "🏆 MyToolBelt - Custom MS Excel add-in to combine Python & Excel": "https://pythonandvba.com/mytoolbelt/",
+    "🏆 Predicting the winner - A model built to see the determinants of a winner team.": "https://medium.com/@sekanti02/end-to-end-machine-learning-project-predicting-a-league-of-legends-game-winner-e9437456d63b",
+    "🏆 Salary Predictor WebApp - The Model has been built with Stackoverflow survey data.": "https://salary-predictor-webapp-fatihkarahan.streamlit.app/",
+    "🏆 Excel Superstore Dashboard -  A dashboard built with filters and drill throughs in Excel": "https://medium.com/@sekanti02/microsoft-excel-superstore-dynamic-dashboard-1f80f83dc44d",
 }
 
 
@@ -111,8 +110,8 @@ st.write('\n')
 st.subheader("Experience & Qulifications")
 st.write(
     """
-- ✔️ 7 Years expereince extracting actionable insights from data
-- ✔️ Strong hands on experience and knowledge in Python and Excel
+- ✔️ 2 Years expereince extracting actionable insights from data
+- ✔️ Strong hands on experience and knowledge in Python, Power Bi, SQL, Azure, and Excel.
 - ✔️ Good understanding of statistical principles and their respective applications
 - ✔️ Excellent team-player and displaying strong sense of initiative on tasks
 """
@@ -124,13 +123,24 @@ st.write('\n')
 st.subheader("Hard Skills")
 st.write(
     """
-- 👩‍💻 Programming: Python (Scikit-learn, Pandas, Numpy, Scrapy, Django, Flask), SQL, VBA
-- 📊 Data Visulization: PowerBi, MS Excel, Plotly
-- 📚 Modeling: Logistic regression, linear regression, decition trees
-- 🗄️ Databases: Postgres, MongoDB, MySQL
+### 👩‍💻 Programming & Databases
+- **Programming Languages**: Python (Pandas, Matplotlib, Numpy, Scikit-learn, Scrapy, Django, Flask)
+- **Databases**: Microsoft SQL, PostgreSQL, MySQL, MongoDB
+- **Version Control**: Git & GitHub
+
+### 📊 Data Visualization & Analytics
+- **Tools**: Power BI, Microsoft Excel, Plotly
+- **Data Analytics**: Microsoft Power Query
+
+### 📚 Modeling
+- **Techniques**: Logistic Regression, Linear Regression, Decision Trees
+
+### ☁️ Cloud Computing
+- **Platform**: Microsoft Azure
+  - **Core Concepts**: Cloud Concepts, Data Management and Governance, Azure Services
+  - **Services**: Virtual Machines, SQL Databases and Servers, Web Apps, Serverless Function Apps
 """
 )
-
 # --- Projects & Accomplishments ---
 st.write('\n')
 st.subheader("Projects & Accomplishments")
